@@ -1,8 +1,6 @@
 #include"f_wifi.h"
 #include"f_aws.h"
 
-#include<WiFi.h>
-
 bool connect_to_wifi();                                                         //Prototipo funktion connect wifi
 void disconnect_to_wifi();
 bool connect_to_aws();
