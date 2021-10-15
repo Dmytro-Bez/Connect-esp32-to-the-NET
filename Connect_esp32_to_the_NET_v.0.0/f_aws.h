@@ -4,9 +4,9 @@
 #include <ArduinoJson.h>
 #include "key.h"
 
-#define DEVICE_NAME "DEV01"                                                            //The name of the device. This MUST match up with the name defined in the AWS console
-#define AWS_IOT_ENDPOINT "..."              //The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
-#define AWS_IOT_TOPIC "/"+ DEVICE_NAME+ "/comand"                                      //The MQTT topic that this device should publish to
+#define DEVICE_NAME "DEV01"                                                       //The name of the device. This MUST match up with the name defined in the AWS console
+#define AWS_IOT_ENDPOINT "..."                                                    //The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
+#define AWS_IOT_TOPIC "/"+ DEVICE_NAME+ "/comand"                                 //The MQTT topic that this device should publish to
 #define AWS_MAX_RECONNECT_TRIES 50 
 
 void message_handler(String &topic, String &payload);

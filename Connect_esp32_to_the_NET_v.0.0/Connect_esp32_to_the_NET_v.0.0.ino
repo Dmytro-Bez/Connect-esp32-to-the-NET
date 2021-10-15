@@ -1,10 +1,10 @@
-#include"f_wifi.h"
-#include"f_aws.h"
+#include"f_wifi.h"              //Connect library wifi
+#include"f_aws.h"               //Connect library aws
 
-bool connect_to_wifi();                                                         //Prototipo funktion connect wifi
-void disconnect_to_wifi();
-bool connect_to_aws();
-void disconnect_to_aws();
+bool connect_to_wifi();         //Prototipo funktion connect wifi
+void disconnect_to_wifi();      //Prototipo funktion disconnect wifi
+bool connect_to_aws();          //Prototipo funktion connect aws
+void disconnect_to_aws();       //Prototipo funktion disconnect aws
 
 void setup() {
   Serial.begin(115200);

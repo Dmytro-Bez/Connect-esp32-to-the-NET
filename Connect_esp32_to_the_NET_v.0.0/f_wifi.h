@@ -3,7 +3,7 @@
 const int conf_size = 25;
 char wifi_ssid[conf_size] = "";
 char wifi_password[conf_size] = "";
-const int max_connect_attempts = 10;                                            //variable repeat connect
+const int max_connect_attempts = 10;                                            //Variable repeat connect
 
 bool connect_to_wifi(){
   bool wifi_status = false;
