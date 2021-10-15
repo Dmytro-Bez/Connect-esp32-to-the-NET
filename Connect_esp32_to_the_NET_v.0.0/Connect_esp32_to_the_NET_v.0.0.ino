@@ -1,5 +1,6 @@
 #include"f_wifi.h"              //Connect library wifi
 #include"f_aws.h"               //Connect library aws
+#include"f_ble.h"               //Connect library ble
 
 bool connect_to_wifi();         //Prototipo funktion connect wifi
 void disconnect_to_wifi();      //Prototipo funktion disconnect wifi
