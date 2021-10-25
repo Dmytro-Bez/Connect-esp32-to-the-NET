@@ -1,0 +1,7 @@
+#include"f_wifi.h"
+#include"f_aws.h"
+#include"key.h"
+#include"f_hdc1080.h" 
+#include"f_bme280.h"
+#include"f_mhz.h"
+//#include"сo2.h"
